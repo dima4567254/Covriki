@@ -5,13 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="https://yoursite.ru/favicon.png" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://yoursite.ru/favicon.png" type="image/x-icon"> -->
     <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <!-- альты не заполнял -->
+<!-- все слова маленькие -->
 
 <body>
     <header class="header">
@@ -40,121 +51,193 @@
                         страницу</span>
                 </div>
             </div>
-            <!-- <a class="menu__logo-link" href="#">
-                <img class="menu__logo logo" src="images/logo.png" alt="logo">
-            </a>
-            <button class="menu__btn" type="button">
-                <span></span>
-                <span class="sr-only">open menu</span>
-            </button>
-            <ul class="menu__items">
-                <li class="menu__item">
-                    <a class="menu__link menu__link--active" href="#">
-                        Home
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#service">
-                        Service
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#collections">
-                        Collections
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#products">
-                        products
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#about">
-                        about
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#blog">
-                        blog
-                    </a>
-                </li>
-            </ul>
-            <div class="menu__nav">
-                <div class="dropdown">
-                    <select class="dropdown__select">
-                        <option class="dropdown__optoon dropdown-svg" value="1" name="email">1
-                        </option>
-                        <option class="dropdown__optoon" value="0" name="email">2</option>
-                    </select>
-                </div>
-                <button class="button button--cart" type="button">
-                    <svg class="button__svg" xmlns="http://www.w3.org/2000/svg" width="18.94" height="16.969"
-                        viewBox="0 0 18.94 16.969">
-                        <path class="cls-1" fill='#243f4d' fill-rule='evenodd'
-                            d="M1721.53,85.978a2.073,2.073,0,1,1,0-4.147h0a2.056,2.056,0,0,1,1.46.6,2.03,2.03,0,0,1,.61,1.466A2.071,2.071,0,0,1,1721.53,85.978Zm0-2.963h0a0.889,0.889,0,1,0,.34,1.71,0.9,0.9,0,0,0,.55-0.824,0.92,0.92,0,0,0-.26-0.629A0.9,0.9,0,0,0,1721.53,83.015Zm8.39,2.963a2.045,2.045,0,0,1-1.46-.607,2.068,2.068,0,0,1,1.46-3.54h0a1.953,1.953,0,0,1,1.47.6,2.085,2.085,0,0,1-.67,3.383A2.093,2.093,0,0,1,1729.92,85.978Zm0-2.963h0a0.978,0.978,0,0,0-.82.548,0.887,0.887,0,0,0,1.16,1.161,0.891,0.891,0,0,0,.29-1.452A0.9,0.9,0,0,0,1729.92,83.015Zm-11.27.164a0.562,0.562,0,0,1-.25-0.056,0.59,0.59,0,0,1-.29-0.787,3.686,3.686,0,0,1,3.05-2.151l-1.05-5.391a0.591,0.591,0,1,1,1.16-.228l1.09,5.578h9.43l1.8-6.771h-13.3a4.346,4.346,0,0,1-4.28-3.693,0.587,0.587,0,0,1,.49-0.673,0.6,0.6,0,0,1,.68.5,3.159,3.159,0,0,0,3.11,2.682h14.07a0.582,0.582,0,0,1,.47.232,0.594,0.594,0,0,1,.11.513l-2.13,7.956a0.59,0.59,0,0,1-.57.44h-10.36a0.03,0.03,0,0,0-.02,0,2.66,2.66,0,0,0-2.68,1.51A0.586,0.586,0,0,1,1718.65,83.178Z"
-                            transform="translate(-1716 -69)" />
-                    </svg>
-                    <span class="sr-only">button cart</span>
-                </button>
-                <span class="sr-only">cart</span>
-                <button class="button  button--search" type="button">
-                    <svg class="button__svg" xmlns="http://www.w3.org/2000/svg" width="15" height="16"
-                        viewBox="0 0 15 16" font-size='16px' opacity='0.8' fill='#212121' font-family='FontAwesome'>
-                        <text id="search" class="cls-1" x="-0.112" y="13.072"></text>
-                    </svg>
-                    <span class="sr-only">button search</span>
-                </button>
-                <span class="sr-only">search</span>
-            </div>
-            </nav>-->
         </div>
     </header>
-
     <main class="main">
-        <section class="">
+        <div class="main-display">
             <div class="container">
-
+                <div class="main-display__wrap">
+                    <div class="main-display__top">
+                        <div class="main-display__logo">
+                            <div class="main-display__logo-img">
+                                <img src="images/logo.svg" alt="">
+                            </div>
+                            <div class="main-display__title">EVARUGS</div>
+                        </div>
+                        <ul class="main-display__nav">
+                            <li>отзывы</li>
+                            <li>что это?</li>
+                            <li>контакты</li>
+                        </ul>
+                    </div>
+                    <div class="main-display__center">
+                        <div class="main-display__left">
+                            <h1 class="main-display__header">Инновационные коврики
+                                для автомобиля</h1>
+                            <div class="main-display__subheader">в вашем городе</div>
+                            <button class="main-display__button" type="button">ЗАКАЗАТЬ</button>
+                        </div>
+                        <div class="main-display__right">
+                            <img src="images/main-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
 
-        <section class="">
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+
+            <section class="">
+                <div class="container">
+
+                </div>
+            </section>
+        </div>
+        <div class="about">
             <div class="container">
+                <div class="about__wrap">
+                    <div class="about__header">
+                        Что такое<span>EVA</span> коврики?
+                    </div>
+                    <div class="about__items">
+                        <div class="about__item">
+                            <div class="about__item-img">
+                                <img src="images/cart1.jpg" alt="">
+                            </div>
+                            <div class="about__item-description">
+                                <h3 class="about__item-header">материал</h3>
+                                <p class="about__item-text">Коврики EVA всесезонные и отличаются уникальной поверхностью
+                                    материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии
+                                    ковра
+                                    и не плещется при езде. Коврики воду не пропускают.</p>
+                            </div>
+                        </div>
 
+                        <div class="about__item">
+                            <div class="about__item-img">
+                                <img src="images/cart2.jpg" alt=""></div>
+                            <div class="about__item-description">
+                                <h3 class="about__item-header">отличия</h3>
+                                <p class="about__item-text">Резиновые коврики загибаются и лезут на педали. EVA коврики
+                                    такого не допустят! Специальные липучки держат его в одном положении. При желании,
+                                    для
+                                    водителя устанавливается подпятник из рельефного алюминия.</p>
+                            </div>
+                        </div>
+
+                        <div class="about__item">
+                            <div class="about__item-img">
+                                <img src="images/cart3.jpg" alt=""></div>
+                            <div class="about__item-description">
+                                <h3 class="about__item-header">расцветка</h3>
+                                <p class="about__item-text">Автомобильные коврики EVA можно заказать и в индивидуальных
+                                    размерах и в разных цветах, которые комбинируется на выбор покупателя с такими же
+                                    цветами окантовочной полипропиленовой ременной ленты.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
 
-        <section class="">
-            <div class="container">
+        <div class="review">
+            <div class="review__slider slide swiper">
+                <div class="swiper-wrapper review__wrapper">
+                    <div class="review__slide swiper-slide">
+                        <div class="review__slide-text">Коврики супер!!! Качество на высшем уровне!!!
+                            Удачи и побольше заказов вам!!! Большое спасибо!
+                        </div>
+                        <div class="review__slide-name">Константин В.</div>
+                        <div class="review__slide-img">
+                            <div class="review__slide-photo">
+                                <img src="images/slide1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__slide swiper-slide">
+                        <div class="review__slide-text">Покупала у ребят коврики для Хундай солярис в подарок
+                            молодому
+                            человеку. Все очень понравилось. Буду советовать только вас.</div>
+                        <div class="review__slide-name">Вера К.</div>
+                        <div class="review__slide-img">
+                            <div class="review__slide-photo">
+                                <img src="images/slide2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="review__slide swiper-slide">
+                        <div class="review__slide-text">Спасибо, все приехало, поставил. Результатом доволен, в
+                            машине
+                            супер! Заказывал на Ниссан.
+                        </div>
+                        <div class="review__slide-name">Николай П.</div>
+                        <div class="review__slide-img">
+                            <div class="review__slide-photo">
+                                <img src="images/slide3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <section class="">
-            <div class="container">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container">
-
-            </div>
-        </section>
-
-
+        </div>
     </main>
+
+    <form class="modal ">
+        <div class="modal__inner">
+            <div class="modal__inner-header">ФОРМА ЗАЯВКИ</div>
+            <div class="modal__inner-elements">
+                <div class="modal__item">
+                    <div class="modal__input modal__input-short">
+                        <input type="text" class="">
+                    </div>
+                    <div class="modal__input modal__input-short">
+                        <input type="email">
+                    </div>
+                </div>
+
+                <div class="modal__item modal__item-long">
+                    <textarea class="modal__message" name="" id=""></textarea>
+                </div>
+
+                <div class="modal__policy">
+                    <input type="checkbox" id="modal__chek">
+                    <label for="modal__check">
+                        <span>Я соглашаюсь с </span>
+                        <a href="#">политическим безопасности</a>
+                    </label>
+                </div>
+                <button class="main-display__button modal__button" type="button">Заказать</button>
+            </div>
+        </div>
+    </form>
 
     <footer class="footer">
         <div class="container">
@@ -176,7 +259,8 @@
                 </div>
 
                 <div class="footer__adress">
-                    <h3 class="fotter__header">О НАС</h3>
+                    <!--отступы задать самосму-->
+                    <h3 class="footer__header">О НАС</h3>
                     <ul>
                         <li>Индивидуальное изготовление EVA ковриков для вашего автомобиля</li>
                         <li>ваш город</li>
